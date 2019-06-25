@@ -1,0 +1,12 @@
+ <% int size=(int)request.getAttribute("size");
+        //int id=(int)request.getAttribute("id");
+      for(int i=0;i<size;i++)
+     {
+    	 %>
+    	  <% out.print(request.getAttribute("user"+i)); %>
+    	  <% out.println(request.getAttribute("comment"+i)); %>
+    	  
+    	 
+    	 <%
+     }
+     %>

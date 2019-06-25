@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.mainmenu{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(106,90,205);
+    
+}
+.menu{
+    width: 20%;
+    line-height: 100px;
+    float: left;
+}
+.menu h4{
+    padding-left:30px;
+    font-weight: bold;
+    color: white;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+
+.list{
+    width: 65%;
+    height: 100px;
+    margin-left: 250px; 
+    text-decoration: none;
+    
+
+}
+
+.list ul li{
+    font-family:inherit;
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    line-height: 130px;
+    margin-left: 30px;
+    
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.list a:hover{
+    color: rgb(255,255,0);
+}
+.search{
+	background-color: rgba(0,0,128,0.6);
+	height: 200px;
+	  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+	
+	width: 800px;
+	margin-top: 160px;
+	margin-left: 50px;
+}
+.search input{
+	border:none;
+	font-size: 20px;
+	border-radius: 5px;
+	border-color: red;
+	font-family: inherit;
+	
+}
+.search select{
+	border:none;
+	font-size: 20px;
+	border-radius: 5px;
+	border-color: red;
+	font-family: inherit;
+	
+}
+.search h3{
+	color: white;
+	margin-left: 300px;
+	margin-top: -20px;
+	font-size: 25px;
+	font-family: inherit;
+	padding-top: 20px;
+	 
+}
+.search #skills{
+	margin-top: 40px;
+	margin-left:30px;
+	width: 200px;
+	height: 40px;
+	padding-left: 5px;
+}
+.search #location{
+	width: 200px;
+	height: 40px;
+	padding-left: 5px;
+}
+.search #experience{
+	width: 200px;
+	height: 40px;
+	padding-left: 5px;
+}
+.search #button{
+    width: 100px;
+	height: 40px;
+	font-weight:bold;
+	cursor: pointer;
+	color:white;
+	background: rgb(255,140,0);
+}
+.search #button:hover{
+	color:white;
+	background-color: rgb(246,166,0);
+}
+
+.error{
+	
+	width: 600px;
+	height: 40px;
+	margin-left: 70px;
+	margin-top: 20px;
+}
+.register {
+	color: white;
+	font-size:25px;
+	font-family:inherit;
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+	
+	width: 350px;
+	height: 200px;
+	margin-left: 970px;
+	margin-top: -200px;
+	background-color: rgba(0,0,128,0.6);
+}
+.register h5{
+    padding-top: 120px; 
+    font-size: 20px;
+    padding-left: 35px;
+ 
+	}
+	.register h4{
+     padding-left: 35px;
+    font-size: 20px;
+ 
+	}
+	.register h6{
+     padding-left: 35px;
+    font-size: 20px;
+ 
+	}
+ .reg1{
+     color:white;
+    font-size:30px;
+     font-family:inherit;
+     background: rgb(255,140,0);
+     width:140px;
+     height:40px;
+     border-radius: 5px;
+     padding-left: 40px;
+     margin-left: 1050px;
+     margin-bottom: -40px;
+     margin-top: -170px;
+	
+	
+}
+.reg1 a{
+	text-decoration: none;
+	color: white;
+}
+.underline{
+	background: rgb(112,128,144);
+	margin-top: 380px;
+	height: 1px;
+}
+.user{
+	margin-left: 1180px;
+	color: green;
+	margin-top: -64px;
+	
+	
+}
+.user .logo{
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;	
+}
+.logo #lo{
+	color :white;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left:17px;
+	padding-top:10px;
+	font-family: monospace;	
+}
+.lable{
+	margin-left: 60px;
+	margin-top: -38px;
+}
+.lable #la{
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: monospace;
+}
+.logout #b{
+	margin-top:5px;
+	margin-left:1240px;
+	color:white;
+	background-color: orange;
+	width: 100px;
+	height:30px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: sans-serif;
+	border: none;
+}
+.logout #b:hover {
+	background-color: blue;
+}
+.footer{
+	background-color:rgba(0,0,0,0.7);
+	margin-top: 350px;
+	height: 300px;	
+}

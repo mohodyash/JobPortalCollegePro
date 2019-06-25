@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+.mainmenu{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(106,90,205);
+}
+.menu{
+    width: 20%;
+    line-height: 100px;
+    float: left;
+}
+.menu h4{
+    padding-left:30px;
+    font-weight: bold;
+    color: white;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+
+.list{
+    width: 65%;
+    height: 100px;
+    margin-left: 250px; 
+    text-decoration: none;
+    
+
+}
+
+.list ul li{
+    font-family:inherit;
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    line-height: 130px;
+    margin-left: 30px;
+    
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.list a:hover{
+    color: rgb(255,255,0);
+}
+
+
+.login{
+	margin-left:1200px; 
+	margin-top: -60px;
+	
+	
+}
+.login #button{
+	height: 30px;
+	width: 100px;
+	background-color: orange;
+	color: white;
+	font-size: 20px;
+	border: none;
+	
+	
+}
+.login #button:hover {
+	color:blue;
+	background-color: rgb(255,255,0);
+}
+.heding{
+	 margin-top: -20px;
+	 font-size: 20px;
+	 margin-left: 400px;
+}
+.user{
+	margin-left: 1180px;
+	color: green;
+	margin-top: -64px;
+	
+	
+}
+.user .logo{
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;	
+}
+.logo #lo{
+	color :white;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left:17px;
+	padding-top:10px;
+	font-family: monospace;	
+}
+.lable{
+	margin-left: 60px;
+	margin-top: -38px;
+}
+.lable #la{
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: monospace;
+}
+.logout #b{
+	margin-top:5px;
+	margin-left:1240px;
+	color:white;
+	background-color: orange;
+	width: 100px;
+	height:30px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: sans-serif;
+	border: none;
+}
+.logout #b:hover {
+	background-color: blue;
+}

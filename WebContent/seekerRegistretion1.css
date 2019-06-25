@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+   
+}
+
+
+.mainmenu{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(106,90,205);
+}
+.menu{
+    width: 20%;
+    line-height: 100px;
+    float: left;
+}
+.menu h4{
+    padding-left:30px;
+    font-weight: bold;
+    color: white;
+    font-family: inherit;
+    font-size: 20px;
+}
+
+
+.list{
+    width: 65%;
+    height: 100px;
+    margin-left: 250px; 
+    text-decoration: none;
+    
+
+}
+
+.list ul li{
+    font-family:inherit;
+    display: inline-block;
+    list-style: none;
+    font-size: 16px;
+    color: white;
+    font-weight: bold;
+    line-height: 130px;
+    margin-left: 30px;
+    
+}
+.list a{
+    text-decoration: none;
+    color: white;
+}
+.list a:hover{
+    color: rgb(255,255,0);
+}
+
+.reg1{
+	margin-top: 40px;
+	margin-left:350px;
+	background-color: white;
+	width: 700px;
+	height: 600px;
+	    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
+	
+}
+.reg2{
+	margin-top: 20px;
+	margin-left:180px;
+	font-size: 20px;
+	font-family: monospace;
+	color:blue;
+	font-weight: bold;
+}
+.reg3{
+	    margin-left: 120px;
+	
+}
+.reg3 #p1{
+	font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    margin-top: 40px;
+    color: rgb(150,128,128);
+	
+}
+.reg3 #name{
+	 margin-top: 20px;
+    margin-left: 0px;
+    width: 350px;
+    height: 25px;
+    font-size: 17px;
+    font-family: monospace;
+    border: 1px solid rgba(0,0,0,0.5); 
+    font-weight: bold;
+    border-left: none;
+    border-top:none;
+    border-right: none;   
+}
+.reg3 #name:hover{
+	
+	border:2px solid rgba(70,130,180,0.9);
+	border-left: none;
+    border-top:none;
+    border-right: none;
+}
+.reg3 #address{
+	margin-top: 30px;
+    margin-left: 0px;
+    width: 350px;
+    height: 30px;
+    
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: monospace;
+    border: 1px solid rgba(0,0,0,0.5); 
+    font-weight: bold;
+    border-left: none;
+    border-top:none;
+    border-right: none;  
+}
+.reg3 #address:hover{
+	border:2px solid rgba(70,130,180,0.9);
+	border-left: none;
+    border-top:none;
+    border-right: none;
+}
+.reg3 #city{
+	margin-top: 30px;
+    margin-left: 0px;
+    width: 350px;
+    height: 30px;
+    font-size: 20px;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: monospace;
+    border: 1px solid rgba(0,0,0,0.5); 
+    font-weight: bold;
+    border-left: none;
+    border-top:none;
+    border-right: none;  
+}
+.reg3 #city:hover{
+	border:2px solid rgba(70,130,180,0.9);
+	border-left: none;
+    border-top:none;
+    border-right: none;
+}
+
+#b1{
+	margin-top: 50px;
+	margin-left: 80px;
+	width: 250px;
+	height: 30px;
+	background-color: orange;
+	color: white;
+	font-size: 17px;
+	font-family: monospace;
+	font-weight: bold;
+	border: none;
+}
+#b1:hover {
+	background-color: blue;
+}
+#w1{
+	height: 30px;	
+}
+.user{
+	margin-left: 1180px;
+	color: green;
+	margin-top: -64px;
+	
+	
+}
+.user .logo{
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;	
+}
+.logo #lo{
+	color :white;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left:17px;
+	padding-top:10px;
+	font-family: monospace;	
+}
+.lable{
+	margin-left: 60px;
+	margin-top: -38px;
+}
+.lable #la{
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	font-family: monospace;
+}
+.logout #b{
+	margin-top:5px;
+	margin-left:1240px;
+	color:white;
+	background-color: orange;
+	width: 100px;
+	height:30px;
+	font-size: 18px;
+	font-weight: bold;
+	font-family: sans-serif;
+	border: none;
+}
+.logout #b:hover {
+	background-color: blue;
+}
+.footer{
+	background-color:rgba(0,0,0,0.7);
+	margin-top: 150px;
+	height: 300px;	
+}
